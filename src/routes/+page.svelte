@@ -15,6 +15,8 @@
   let religionToEdit = writable(null);    // Store for the religion to edit
   let showDeleteModal = writable(false); // To control visibility of delete modal
 
+
+// all api
   const fetchReligions = async () => {
     try {
       const response = await fetch('https://projectasthaapi.vercel.app/api/v1/religion');
